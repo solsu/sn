@@ -1,0 +1,699 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	/* 去除a标签的下划线 */
+	text-decoration: none;
+}
+h6{
+	font-family: normal;
+}
+.dingbu{
+	width: 100%;
+	height: 36px;
+	background: #f5f5f5;
+
+}
+.btn{
+	width: 196px;
+	height: 18px;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -98px;
+	display: flex;
+	z-index: 50;
+}
+.btn div{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	margin-right: 5px;
+	background: rgba(0, 0, 0, 0.4);
+}
+.btn .hot{
+	background: #f90;
+}
+.dingbu .dingbuzuo i{
+	font-size: 12px;
+}
+/* .btn{
+	width: 100px;
+	height: 18px;
+	position: absolute;
+	bottom: 15px;
+	right: 500px;
+	display: flex;
+	z-index: 99;
+}
+.btn li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	margin-right: 5px;
+	background: white;
+}
+.btn .hot{
+	background: #f90;
+} */
+.dingbuzuo{
+	width: 500px;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 170px;
+	float: left;
+	position: relative;
+}
+.anniuzz{
+	display: block;
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	bottom: 0;
+	margin-bottom: auto;
+	margin-top: auto;
+	z-index: 20;
+	background: url('../img/anniu.png') 0 center;
+}
+.anniuyy{
+	display: block;
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 50;
+	margin-bottom: auto;
+	margin-top: auto;
+	background-position: -125px center;
+	background: url('../img/anniu.png') -42px center;
+}
+.dingbuzuo div span{
+	float: left;
+	font-size: 12px;
+	color: black;
+	margin-right: 3px;
+}
+.dingbuzuo i{
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+.dingbuyou{
+	width: 648px;
+	height: 36px;
+	float: right;
+	line-height: 36px;
+	position: relative;
+}
+.dingbuyou div span{
+	float: left;
+	font-size: 12px;
+	margin-left:10px;
+	color: black;
+}
+.dingbuyou div:nth-child(2) span{
+	color: red;
+}
+.dingbuyou div:nth-child(6) span{
+	color: red;
+}
+.head{
+	width:100%;
+	height: 110px;
+	background: white;
+	overflow: hidden;
+}
+#hhead{
+	width: 1226px;
+	margin: 0 auto 0;
+}
+.head img:nth-child(1){
+	width: 190px;
+	height: 90px;
+	float: left;
+}
+.head div:nth-child(2) img:last-child{
+	width: 160px;
+	height: 100px;
+	float: left
+}
+.head div:nth-child(4) img:last-child{
+	width: 80px;
+	height: 80px;
+	float: right;
+	margin-right: 50px;
+}
+.head .ss{
+	float: left;
+	width: 500px;
+	height: 110px;
+	padding-top: 30px;
+}
+.ss div{
+	width: 500px;
+	height: 40px;
+	border: 1px solid #f90;
+	float: left;
+	/* margin-top: 20px; */
+}
+.ss div div{
+	width: 100px;
+	height: 38px;
+	background: #f90;
+	float: right;
+}
+.ss span{
+	font-size: 24px;
+	color: white;
+	float: right;
+	line-height: 38px;
+	margin-right: 24px;
+}
+.head2{
+	width:100%;
+	height: 48px;
+}
+#hhead2{
+	width: 1226px;
+	height: 48px;
+	background: white;
+	margin:0 auto 0;
+}
+.head2 #hhead2 div:first-child{
+	width: 190px;
+	height: 48px;
+	background: #f90;
+	float: left;
+}
+.head2 #hhead2 div:first-child span{
+	font-size: 18px;
+	color: white;
+	line-height: 48px;
+}
+.head2 #hhead2 ul{
+	width: 795px;
+	display: flex;
+	justify-content: space-around;
+}
+.head2 #hhead2 ul span{
+	font-size: 18px;
+	color: black;
+	line-height: 48px;
+}
+.banner{
+	width: 100%;
+	height: 440px;
+	background: rgba(20, 20, 20, 1);
+}
+#bbanner{
+	width: 1226px;
+	margin: 0 auto 0;
+}
+.xiala ul{
+	height: 220px;
+	padding-top: 40px;
+}
+.xiala ul li div{
+	width: 17px;
+	display: inline-block;
+	height: 17px;
+	background: url('../img/index.png')-20px 0;
+}
+.dingbu .dingbuzuo div:hover i{
+	transform: rotate(180deg);
+}
+.dingbu .dingbuzuo .icon-xiala1{
+	display: block;
+}
+.xiala ul li{
+	width: 160px;
+	height: 180px;
+
+	padding-left: 30px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+.xiala5{
+	width: 150px;
+	height: 0;
+	position: absolute;
+	left: 60px;
+	top: 36px;
+	overflow: hidden;
+	background: white;
+}
+.xiala6{
+	width: 164px;
+	height: 0;
+	position: absolute;
+	left: 60px;
+	top: 36px;
+	overflow: hidden;
+	background: white;
+}
+.xiala6 li{
+	width: 76px;
+	height: 164px;
+	float: left;
+}
+.xiala6 p{
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.6);
+	line-height: 24px;
+}
+.xiala6 li:nth-child(2){
+	padding-top: 20px;
+}
+.xiala6 li:nth-child(1){
+	padding-left:  10px;
+}
+.xiala6 li:nth-child(2) p:nth-child(2){
+	display: block;
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	background: #ff6700;
+	line-height: 20px;
+	border-radius: 5px;
+	color: white;
+	margin-bottom: 10px;
+}
+.xiala5 span{
+	margin-left: 10px;
+	line-height: 30px;
+}
+.xiala ul li:last-child{
+	border-right: 0;
+}
+.xiala h2{
+	font-size: 16px;
+	color: black;
+}
+.xiala span{
+	padding-right: 20px;
+}
+.xiala{
+	width: 990px;
+	transition: 0.3s;
+	background: white;
+	position: absolute;
+	top: 36px;
+	left: 0;
+	height: 0;
+	z-index: 99;
+	overflow: hidden;
+}
+.dingbuyou .xiala3{
+	width: 540px;
+	height: 0;
+	background: white;
+	transition: 0.3s;
+	position: absolute;
+	top: 36px;
+	left: -40px;
+	z-index: 99;
+	overflow: hidden;
+}
+.dingbuyou .xiala2{
+	width: 280px;
+	height: 0;
+	background: white;
+	transition: 0.3s;
+	position: absolute;
+	top: 36px;
+	left: 50px;
+	z-index: 99;
+	overflow: hidden;
+}
+
+.cela{
+	width: 1000px;
+	height: 440px;
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 190px;
+	z-index: 99;
+	display: none;
+}
+.celazuo{
+	width: 800px;
+}
+.cela .celazuo h6{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	background: orange;
+	margin-left: 20px;
+}
+.celaz{
+	width: 100px;
+	display: inline-block;
+	padding-top: 20px;
+}
+.celaz ul li{
+	width: 100%;
+	height: 55px;
+	text-align: center;
+}
+.celay{
+	width: 700px;
+	float: right;
+	padding-top: 20px;
+	color: black;
+}
+.celay ul{
+	width: 660px;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+margin-bottom: 10px;
+}
+.celay ul:last-child{
+	border: none;
+	margin: 0;
+}
+.celay li{
+	margin-right: 10px;
+}
+.celay li:nth-child(1) a{
+	color: #f90;
+}
+.celay li:nth-child(9) a{
+	color: #f90;
+}
+.celay li:nth-child(5) a{
+	color: #f90;
+}
+.celay ul li a{
+	font-size: 12px;
+	margin-left: 12px;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: bold;
+}
+.celay ul li:nth-child(9) a,{
+	color: #f90;
+}
+.celayou{
+	width: 150px;
+	height: 100%;
+	float: right;
+	background: black;
+	display: inline-block;
+}
+.bannerzuo{
+	width: 190px;
+	height: 440px;
+	background: rgba(0, 0, 0, 1.0);
+	float: left;
+	position: relative;
+}
+.cela img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.bannerzuo ul li span{
+	color: white;
+	line-height: 31px;
+	font-size: 12px;
+}
+.bannerzuo ul li h6{
+	color: rgba(250, 250, 250, 0.5);
+	display: inline-block;
+}
+
+.bannerzuo ul li i{
+	font-size: 12px;
+	color:#f90;
+	margin-left: 5px;
+}
+.dingbuyou div:hover span{
+	color: #f90;
+}
+.bannerzuo ul li:hover{
+	background: white;
+}
+.bannerzuo ul li:hover span{
+	color: black;
+}
+.bannerzuo ul li span:hover{
+	color:#f90;
+}
+.head2 #hhead2 div ul li:hover span{
+	color: #f90;
+}
+.banneryou .d3 ul li{
+	width: 56px;
+	height: 72px;
+	box-sizing: border-box;
+}
+.banneryou .d3 ul li:hover h6{
+	color: red;
+}
+
+.bannerzhong{
+	width: 830px;
+	height: 440px;
+	float: left;
+	position: relative;
+}
+.bannerzhong ul li{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bannerzhong a:nth-child(2) div{
+	background: rgba(250, 250, 250, 0.95);
+	width: 150px;
+	height: 213px;
+	top: 5px;
+	right: 5px;
+	position: absolute;
+	z-index: 50;
+}
+.sss{
+	height: 5000px;
+	background: black;
+	width: 100%;
+}
+.seth{
+	width: 100%;
+	background: rgba(255,255,255,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 0;
+	overflow: hidden;
+	z-index: 99;
+}
+.bannerzhong a:nth-child(3) div{
+	background: rgba(250, 250, 250, 0.95);
+	width: 150px;
+	height: 213px;
+	bottom: 5px;
+	right: 5px;
+	position: absolute;
+	z-index: 50;
+}
+.bannerzhong a:nth-child(3) img{
+	width: 140px;
+	height: 140px;
+	margin: 10px 5px;
+}
+.bannerzhong a:nth-child(2) img{
+	width: 140px;
+	height: 140px;
+	margin: 10px 5px;
+}
+.bannerzhong a:nth-child(2) span:nth-child(1){
+	color: black;
+	font-size: 12px;
+	display: block;
+	margin: 20px auto 0;
+	text-align: center;
+}
+.bannerzhong a:nth-child(2) span:nth-child(2){
+	color: black;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+}
+.bannerzhong a:nth-child(3) span:nth-child(1){
+	color: black;
+	font-size: 12px;
+	display: block;
+	margin: 20px auto 0;
+	text-align: center;
+}
+.bannerzhong a:nth-child(3) span:nth-child(2){
+	color: black;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+}
+.banneryou{
+	width: 170px;
+	height: 440px;
+	overflow: hidden
+	background: url('../img/QQ浏览器截图20180520165416.png');
+	float: left;
+	position: relative;
+	margin-top: 3px;
+}
+
+.banneryou div:nth-child(1){
+	width: 170px;
+	height: 169px;
+	background: white;
+	float: left;
+}
+.banneryou div:nth-child(1) .t1{
+	width: 170px;
+	height: 54px;
+	margin-bottom: 20px;
+} 
+.banneryou div:nth-child(1) .t1 img{
+	width: 52px;
+	display: block;
+	height: 54px;
+	background: url('../img/index.png')-93px -23px;
+	margin: 20px auto 0;
+}
+.banneryou div:nth-child(1) h6{
+	text-align: center;
+	line-height: 26px;
+}
+.banneryou div:nth-child(1) div:nth-child(3){
+	width: 70px;
+	height: 22px;
+	border: 1px solid #f90;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.banneryou div:nth-child(1) div:nth-child(3) h6{
+	color: #f90;
+	line-height: 22px;
+}
+.banneryou div:nth-child(1) img:nth-child(4){
+	background: url('../img/index.png') -295px -251px;
+	width: 70px;
+	height: 22px;
+	display: block;
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+.banneryou div:nth-child(2){
+	width: 170px;
+	height: 97px;
+	background: white;
+}
+.banneryou .t2{
+	width: 16px;
+	height: 14px;
+	background: url('../img/index.png') -111px 0;
+	float: left;
+	margin-top: 12px;
+	margin-right: 3px;
+	margin-left: 10px;
+}
+.banneryou div:first-child span{
+	display: inline-block;
+	margin-top: 8px;
+}
+.banneryou .t3{
+	width: 16px;
+	height: 14px;
+	background: url('../img/index.png') -88px 0;
+	float: right;
+	margin-right: 58px;
+	margin-top: 12px;
+}
+.banneryou .w1{
+	float: right;
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+	top: 134px;
+}
+.banner .banneryou .d2{
+	width: 170px;
+	height: 115px;
+	float: left;
+}
+.banneryou .d3{
+	width: 170px;
+	height: 156px;
+	background: white;
+	float: left;
+	position: relative;
+}
+.banneryou .d2 span{
+	color: #f90;
+	font-size: 12px;
+	display: inline-block;
+}
+.banneryou .d2 h5{
+	font-size: 12px;
+	color: black;
+	margin-top: 10px;
+	font-weight: normal;
+}
+.banneryou .d3 ul{
+	width: 170px;
+	height: 156px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	justify-content: space-between;
+}
+.banneryou .d3 li{
+	width: 56px;
+	height: 66px;
+	background: white;
+	margin-top: 6px;
+	color: #f90;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.banneryou .d3 i{
+	font-size: 30px;
+}
+.banneryou .d3 .xian .xiann{
+	position: absolute;
+	height:72px;
+	width: 100%;
+	left: 0;
+	z-index: -1;
+	top: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: rgba(0, 0, 0, 0)
+}
+.banneryou .d3 .xian2 .xiann2{
+	position: absolute;
+	height:144px;
+	z-index: -1;
+	width: 56px;
+	left: 56px;
+	top: 0;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background-color: rgba(0, 0, 0, 0)
+}
+/* 580 569 500 */
